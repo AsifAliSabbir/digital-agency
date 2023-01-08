@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/* NAV STYLES */
 .nav-container{
     display: flex;
     padding: 20px;
@@ -11,17 +13,72 @@
     color:white;
 
 }
-
 .nav-container .items{
     display: flex;
     list-style: none;
 
 
 }
-
 .nav-container .item{
     font-size: 22px;
     padding: 5px;
     margin-right: 10px;
 
 }
+
+/* BANNER STYLES */
+.banner-container{
+    width: 100%;
+    height: 100vh;
+
+    /* Add a linear gradient over a background image */
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)), url(../asset/image/background.jpg);
+
+    /* stretch the background image to the window size */
+    background-size: 100% 100%;
+
+
+
+    background-repeat: no-repeat;
+    /* background-blend-mode: overlay; */  
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-details h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.primary{
+    color:orangered;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.banner-details .description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.btn{
+    padding: 15px 35px;
+    font-size: 18px;
+    border:none;
+    margin: 5px;
+}
+
+.btn-discover{
+    background-color: orangered;
+    color:white;
+}
+
+
+
