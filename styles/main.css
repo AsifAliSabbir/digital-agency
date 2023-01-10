@@ -4,35 +4,37 @@
 }
 
 
-/* NAV STYLES */
-.nav-container{
+/* NAV STYLES --------------------------------------------------------- */
+.nav-container {
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    background-color: hsl(0,0%,52.94%);
-    color:white;
+    background-color: hsl(0, 0%, 52.94%);
+    color: white;
 
 }
-.nav-container .items{
+
+.nav-container .items {
     display: flex;
     list-style: none;
 
 
 }
-.nav-container .item{
+
+.nav-container .item {
     font-size: 22px;
     padding: 5px;
     margin-right: 10px;
 
 }
 
-/* BANNER STYLES */
-.banner-container{
+/* BANNER STYLES ----------------------------------------------------- */
+.banner-container {
     width: 100%;
     height: 100vh;
 
     /* Add a linear gradient over a background image */
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)), url(../asset/image/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url(../asset/image/background.jpg);
 
     /* stretch the background image to the window size */
     background-size: 100% 100%;
@@ -40,45 +42,152 @@
 
 
     background-repeat: no-repeat;
-    /* background-blend-mode: overlay; */  
+    /* background-blend-mode: overlay; */
 
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     color: white;
 }
 
-.banner-details h1{
+.banner-details h1 {
     font-size: 85px;
     font-weight: bold;
 }
 
-.primary{
-    color:orangered;
+.primary {
+    color: orangered;
 }
 
-.description{
+.description {
     font-size: 20px;
 }
 
-.banner-details .description{
+.banner-details .description {
     font-size: 22px;
     width: 50%;
     margin: auto;
     padding: 10px;
 }
 
-.btn{
+.btn {
     padding: 15px 35px;
     font-size: 18px;
-    border:none;
+    border: none;
     margin: 5px;
 }
 
-.btn-discover{
+.btn-discover {
     background-color: orangered;
-    color:white;
+    color: white;
 }
 
 
 
+
+
+/* SERVICE SECTION STYLES --------------------------------------------*/
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+
+}
+
+.btn-service,
+.btn-more {
+    border-radius: 25px;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.author {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.author-details {
+    display: flex;
+    /* justify-content: ; */
+}
+
+
+.service-texts{
+    margin-left: 150px;
+}
+
+.service-texts h1 {
+    font-size: 40px;
+}
+
+.service-texts p , ol {
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+}
+
+.service-texts ol{
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.service-texts .btn{
+    margin-left: 20px;
+}
+
+.more-details {
+    border-left: 1px solid orangered;
+    margin: 20px;
+}
+
+/* service tiles */
+
+.service-tiles{
+    margin-right: 100px;
+}
+
+.tiles-top,
+.tiles-bottom {
+    display: flex;
+
+
+
+}
+
+
+.tile {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.tile img {
+    width: 100px;
+    height: 100px;
+
+}
