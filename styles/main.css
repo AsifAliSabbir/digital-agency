@@ -1,193 +1,228 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* NAV STYLES --------------------------------------------------------- */
 .nav-container {
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;
-    background-color: hsl(0, 0%, 52.94%);
-    color: white;
-
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  background-color: hsl(0, 0%, 52.94%);
+  color: white;
 }
 
 .nav-container .items {
-    display: flex;
-    list-style: none;
-
-
+  display: flex;
+  list-style: none;
 }
 
 .nav-container .item {
-    font-size: 22px;
-    padding: 5px;
-    margin-right: 10px;
-
+  font-size: 22px;
+  padding: 5px;
+  margin-right: 10px;
 }
 
 /* BANNER STYLES ----------------------------------------------------- */
 .banner-container {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 
-    /* Add a linear gradient over a background image */
-    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url(../asset/image/background.jpg);
+  /* Add a linear gradient over a background image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url(../asset/image/background.jpg);
 
-    /* stretch the background image to the window size */
-    background-size: 100% 100%;
+  /* stretch the background image to the window size */
+  background-size: 100% 100%;
 
+  background-repeat: no-repeat;
+  /* background-blend-mode: overlay; */
 
-
-    background-repeat: no-repeat;
-    /* background-blend-mode: overlay; */
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 
 .banner-details h1 {
-    font-size: 85px;
-    font-weight: bold;
+  font-size: 85px;
+  font-weight: bold;
 }
 
 .primary {
-    color: orangered;
+  color: orangered;
 }
 
 .description {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .banner-details .description {
-    font-size: 22px;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
 }
 
 .btn {
-    padding: 15px 35px;
-    font-size: 18px;
-    border: none;
-    margin: 5px;
+  padding: 15px 35px;
+  font-size: 18px;
+  border: none;
+  margin: 5px;
 }
 
 .btn-discover {
-    background-color: orangered;
-    color: white;
+  background-color: orangered;
+  color: white;
 }
-
-
-
-
 
 /* SERVICE SECTION STYLES --------------------------------------------*/
 .services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    color: white;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 .btn-service,
 .btn-more {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 .author img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .author {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .author-details {
-    display: flex;
-    /* justify-content: ; */
+  display: flex;
+  /* justify-content: ; */
 }
 
-
-.service-texts{
-    margin-left: 150px;
+.service-texts {
+  margin-left: 150px;
 }
 
 .service-texts h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.service-texts p , ol {
-    font-size: 20px;
-    width: 80%;
-    padding: 10px;
+.service-texts p,
+ol {
+  font-size: 20px;
+  width: 80%;
+  padding: 10px;
 }
 
-.service-texts ol{
-    margin-bottom: 30px;
-    margin-left: 30px;
-
+.service-texts ol {
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 
-.service-texts .btn{
-    margin-left: 20px;
+.service-texts .btn {
+  margin-left: 20px;
 }
 
 .more-details {
-    border-left: 1px solid orangered;
-    margin: 20px;
+  border-left: 1px solid orangered;
+  margin: 20px;
 }
 
 /* service tiles */
 
-.service-tiles{
-    margin-right: 100px;
+.service-tiles {
+  margin-right: 100px;
 }
 
 .tiles-top,
 .tiles-bottom {
-    display: flex;
-
-
-
+  display: flex;
 }
 
-
 .tile {
-    width: 250px;
-    height: 250px;
-    padding: 50px;
-    margin: 10px;
-    text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
 
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 
-    border-radius: 10px;
-    box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px gray;
 }
 
 .tile img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+}
 
+/* appoinment section styles */
+.appoinment {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+
+  margin: 150px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: -100px;
+}
+
+.contact img {
+  width: 100px;
+}
+
+.btn-container button {
+  border-radius: 20px;
+}
+
+.contact {
+  border-right: 1px solid white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.appoinment h1 {
+  font-size: 32px;
+}
+
+.appoinment small {
+  font-size: 12px;
+}
+
+.appoinment h1,
+.appoinment p {
+  color: white;
+}
+
+.appoinment p {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
